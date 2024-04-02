@@ -1,0 +1,142 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+.checkboxRemoveHover-bg:hover {
+  background: none !important;
+}
+
+.fc .fc-event-main .fc-event-title {
+  padding: 0.3rem;
+  display: block;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  font-size: 0.7rem;
+  /* background: transparent; */
+  border-color: transparent;
+  background: linear-gradient(360deg, #efd9ae 0%, #b4772c 100%);
+}
+
+.css-1nhqsen .fc .fc-daygrid-event-harness .fc-event {
+  background: linear-gradient(360deg, #efd9ae 0%, #b4772c 100%);
+  cursor: pointer;
+  border: none;
+}
+coin-stats-ticker-widget * {
+  max-width: 500px !important;
+}
+
+.MuiBox-root.css-4mkpz9 {
+  height: 100%;
+}
+
+/* For Scroller */
+
+* {
+  scrollbar-width: thin;
+
+  scrollbar-color: #cf7404 #cf7404;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #fff 0%, #fff 100%),
+    linear-gradient(136.64deg, rgba(255, 255, 255, 0.35) -0.95%, rgba(255, 255, 255, 0.32) 135.8%);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #cf7404;
+  border-radius: 0px;
+  border: 0px solid transparent;
+}
+
+.ck-content {
+  color: #ca9b5c;
+  background: red;
+}
+
+.ck-editor__editable_inline {
+  min-height: 200px;
+}
+.ck-toolbar {
+  background: red;
+}
+.ck.ck-editor__main > .ck-editor__editable {
+  background: transparent !important;
+  border-color: #bf8a45 !important;
+}
+.ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
+  background: linear-gradient(360deg, rgb(239, 217, 174) -73.58%, rgb(180, 119, 44) 97.53%);
+  border-color: #bf8a45 !important;
+}
+
+/* ChatBot CSS */
+
+.blinking-cursor {
+  margin-left: 5px;
+  background-color: #000;
+  animation: blink 0.5s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  50.1%, 100% {
+    opacity: 0;
+  }
+}
+
+/* google translator */
+
+#google_translate_element .goog-te-gadget-simple {
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff !important;
+  background: linear-gradient(135.45deg, rgb(54, 54, 54) 11.55%, rgb(0, 0, 0) 101.52%);
+  border: 1px solid #E8E8E8;
+}
+
+#google_translate_element .goog-te-gadget-simple span {
+  color: #fff;
+  font-family: inherit;
+}
+#google_translate_element iframe .VIpgJd-ZVi9od-vH1Gmf {
+  background-color: red !important;
+  text-decoration: none;
+  border: 1px solid #6B90DA;
+  overflow: hidden;
+  padding: 4px;
+}
+
+.VIpgJd-ZVi9od-vH1Gmf-ibnC6b div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b:link div, .VIpgJd-ZVi9od-vH1Gmf-ibnC6b:visited div {
+  background: none !important;
+  color: #fff;
+}
