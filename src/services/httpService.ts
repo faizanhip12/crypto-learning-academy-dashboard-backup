@@ -8,7 +8,7 @@ const instance = axios.create({
   // baseURL: 'http://192.168.0.203:8002/api/v1', // local Maaz
   // baseURL: 'http://192.168.0.140:8002/api/v1', // local Manahil
   // baseURL: 'https://api.smartchainacademy.com/api/v1', // Live
-  baseURL: 'http://localhost:8004/api/v1',
+  baseURL: 'https://62w84jwr-8004.inc1.devtunnels.ms/api/v1',
   timeout: 500000,
   headers: {
     Accept: 'application/json',
