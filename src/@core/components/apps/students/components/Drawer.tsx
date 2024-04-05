@@ -100,6 +100,9 @@ const StudentDrawer = (props: SidebarAddUserType) => {
               <InputField name='email' label='email' placeholder='Enter Email' type='email' control={control} />
             </Grid>
             <Grid item xs={12} sm={6}>
+              <InputField name='password' label='password' placeholder='Enter Password' type='password' control={control} />
+            </Grid>
+            <Grid item xs={12} sm={6}>
               <InputField name='phone' label='Enter Phone' placeholder='Enter Phone' type='number' control={control} />
             </Grid>
             <Grid item xs={12} sm={6}>
