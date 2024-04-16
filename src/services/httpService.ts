@@ -10,7 +10,7 @@ const instance = axios.create({
   // baseURL: 'https://api.smartchainacademy.com/api/v1', // Live
   // baseURL: 'https://62w84jwr-8004.inc1.devtunnels.ms/api/v1',
   // baseURL: 'http://165.232.184.126/api/v1',
-  baseURL: 'http://cryptolearningacademy.com/api/v1',
+  baseURL: 'https://cryptolearningacademy.com/api/v1',
   timeout: 500000,
   headers: {
     Accept: 'application/json',
